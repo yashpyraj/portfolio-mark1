@@ -1,12 +1,12 @@
-import React, {createRef, useContext} from "react";
-import {Fade, Slide, Zoom} from "react-reveal";
+import React, { createRef, useContext } from "react";
+import { Fade, Slide, Zoom } from "react-reveal";
 import "./EducationCard.css";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function EducationCard({school}) {
+export default function EducationCard({ school }) {
   const imgRef = createRef();
 
-  const GetDescBullets = ({descBullets}) => {
+  const GetDescBullets = ({ descBullets }) => {
     return descBullets
       ? descBullets.map((item, i) => (
           <li key={i} className="subTitle">
@@ -15,20 +15,12 @@ export default function EducationCard({school}) {
         ))
       : null;
   };
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   return (
     <div>
       <Fade left duration={1000}>
         <div className="education-card">
-          <div className="education-card-left">
-            <img
-              crossOrigin={"anonymous"}
-              ref={imgRef}
-              className="education-roundedimg"
-              src={school.logo}
-              alt={school.schoolName}
-            />
-          </div>
+          <div className="education-card-left"></div>
           <div className="education-card-right">
             <h5 className="education-text-school">{school.schoolName}</h5>
 

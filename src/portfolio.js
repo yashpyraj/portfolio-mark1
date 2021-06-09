@@ -22,15 +22,15 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: "https://www.instagram.com/davidrakosi/",
-  twitter: "https://twitter.com/davidrakosi_",
+  github: "https://github.com/yashpyraj",
+  linkedin: "https://www.linkedin.com/in/yash-raj-719627157/",
+  gmail: "yraj20081999@gmail.com",
+  gitlab: "https://gitlab.com/",
+  facebook: "https://www.facebook.com/profile.php?id=100007542823036",
+  medium: "https://medium.com/",
+  stackoverflow: "https://stackoverflow.com/users/15993644/yashraj",
+  instagram: "https://www.instagram.com/yashraj_________/",
+  twitter: "https://twitter.com/yashraj18215487",
   display: true, // Set true to display this section, defaults to false
 };
 
@@ -38,14 +38,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     ),
   ],
 
@@ -78,20 +74,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift",
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm",
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database",
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -103,21 +87,9 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+      schoolName: "Don Bosco Institute Of Technology",
+      subHeader: "Electrical & Communication Engineering",
+      duration: "2017 - 2021",
     },
   ],
 };
@@ -129,15 +101,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%",
+      progressPercentage: "90%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%",
+      progressPercentage: "80%",
     },
   ],
   displayCodersrank: true, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -146,7 +118,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -185,9 +157,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "yashpyraj", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -303,7 +275,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -338,14 +310,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com",
+  number: "9071178919",
+  email_address: "yraj20081999@gmail.com",
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "yashraj18215487", //Replace "twitter" with your twitter username without @
   display: true, // Set true to display this section, defaults to false
 };
 
