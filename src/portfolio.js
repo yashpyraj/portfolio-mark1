@@ -165,34 +165,35 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle:
+    "This websites was fun to create like very project CODE ERROR DEBUG DEPLOY",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pro.JPG"),
+      projectName: "Protfolio Website",
+      projectDesc: "Simple ans of {  tell me about yourself }",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa",
+          url: "https://yashraj20.netlify.app/",
         },
         //  you can add extra buttons here.
       ],
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/amazon.JPG"),
+      projectName: "Amazon Clone",
+      projectDesc: "Amazon front-end clone",
       footerLink: [
         {
           name: "Visit Website",
-          url: "",
+          url: "https://amazon-eight.vercel.app/",
         },
       ],
     },
   ],
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
